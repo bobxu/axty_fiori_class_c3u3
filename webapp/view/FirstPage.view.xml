@@ -1,0 +1,25 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.axyt.chapter3unit3.controller.FirstPage" displayBlock="true">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Table noDataText="Drop column list items here and columns in the area above" id="table0" items="{path: '/People'}">
+				        <items>
+				            <ColumnListItem type="Active" id="item0">
+				                <cells>
+				                    <Text text="{Name}" id="text0"/></cells>
+				            </ColumnListItem>
+				        </items>
+				        <columns>
+				            <Column id="column0">
+				                <header>
+				                    <Label text="名字" id="label0"/>
+				                </header>
+				            </Column></columns></Table>
+				    <Input width="50%" id="inputName"/>
+				    <Button text="添加" width="100px" id="button0" icon="sap-icon://accept" press="buttonClick"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

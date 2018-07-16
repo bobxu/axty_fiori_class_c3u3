@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "com.axyt.chapter3unit3.chapter3unit3",
+        "description": "test",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#chapter3unit3-Display",
+        "navigationComponentName": "com.axyt.chapter3unit3",
+        "intentSemanticObject": "chapter3unit3",
+        "intentAction": "Display",
+        "html5ApplicationName": "chapter3unit31",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "8d43b6a0-0f80-4309-9868-a599c9894200"
+        ],
+        "contentPackages": [
+            "4b7f2a61-1677-496a-8373-410eaa1b0e3d"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Fiori开发入门课程",
+        "subtitle": "第三单元第三课时",
+        "searchKeywords": "Fiori开发入门课程,第三单元第三课时",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
